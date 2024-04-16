@@ -1,3 +1,23 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+}:root {
+    --bg-color: #080808;
+    --secondary-bg-color: #121212;
+    --text-color: #e4e4e4;
+    --main-color:#1050ff;
+}
+
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color)
 }
